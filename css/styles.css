@@ -1,0 +1,78 @@
+:root{
+    --primary-text-color: rgba(0,0,0, 0,8);
+    --title-text-color: #000000;
+    --accent-color: #18A0FB;
+    --primary-white-color: #FFFFFF;
+}
+
+
+/* main color #000000*/
+/* secondary color rgba(0,0,0, 0,8) */
+/* accent #18A0FB */
+/* white #FFFFFF */
+/* seondary backround color #F5F5F5 */
+
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav a {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus  {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+
+.feature-list .title{
+    color: var(--title-text-color);
+}
+
+.feature-list .link{
+    color: var(--accent-color);
+}
+
+/* work exaples */
+.work-list .title {
+color: var(--title-text-color);
+}
+
+/* button */
+.button{
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.button.secondary{
+    color: var(--accent-color);
+    background-color: var(--primary-white-color)
+}
